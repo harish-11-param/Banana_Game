@@ -1,0 +1,88 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set custom width and height */
+  width: 100%; /* Adjust the width of the container */
+  background-image: url("../images/register.png");
+  background-size: 178vh 101vh;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.signup-form {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-form1 {
+  display: flex;
+  align-items: center;
+}
+
+.signup-form1 label {
+  font-family: "Jaini Purva", sans-serif;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 52.56px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  background: #f2e7cb;
+  color: #000;
+  margin: 10px 0;
+  border: 3px solid #000;
+  border-radius: 1px;
+  font-size: 14px;
+}
+
+/* Password visibility icon */
+.password-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-field input {
+  width: 80%;
+  margin-right: 5px;
+}
+
+.password-field svg {
+  cursor: pointer;
+  color: #666;
+}
+
+/* Button styling */
+.signup-btn {
+  margin-top: 30px;
+  width: 192px;
+  height: 75px;
+  border-radius: 50px;
+  border: 8px solid #f4c135;
+  background: linear-gradient(180deg, #eeba2b 0%, #f1ede1 100%);
+  font-family: "Jaini Purva", sans-serif;
+  color: #000;
+  font-size: 40px;
+}
+
+.sign-btn:hover {
+  background-color: #e67e22;
+  transform: scale(1.1);
+}
+
+/* Register text */
+.register-text {
+  margin-top: 150px;
+  font-size: 30px;
+  font-family: "Jaini Purva", sans-serif;
+  color: #000;
+}

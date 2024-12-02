@@ -1,0 +1,48 @@
+/* Set the background for the entire page */
+.container2 {
+  background-image: url("../images/leaderboard.png");
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  background-size: 177vh 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black; /* Text color */
+  font-family: "Jaini Purva", sans-serif; /* Match your font */
+  padding: 0;
+  margin: 0;
+}
+
+/* Center and style the table */
+.highscores-table {
+  margin-top: 50px;
+  border-collapse: collapse; /* Remove table lines */
+  text-align: center;
+  width: 80%; /* Adjust table width */
+  max-width: 600px;
+
+  /* Light background for table */
+}
+
+/* Table cells */
+.highscores-table th,
+.highscores-table td {
+  padding: 5px;
+}
+.td1 {
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  padding: 10px;
+  background: linear-gradient(180deg, #eeba2b 0%, #ffc31d 100%);
+  font-family: "Jaini Purva", sans-serif;
+  border-radius: 50%; /* Rounds the button into a circle */
+}
+.td2 {
+  background: linear-gradient(
+    90deg,
+    rgba(237, 36, 36, 0.98) 1.52%,
+    rgba(255, 254, 254, 0.98) 100%
+  );
+  justify-content: space-between;
+}
