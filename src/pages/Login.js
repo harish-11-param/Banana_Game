@@ -141,7 +141,7 @@ const LoginPage = () => {
         {" "}
         <center>
           <p className="register-text">
-            Don't have an ?{" "}
+            Don't have an Account?{" "}
             <span
               style={{ color: "blue", cursor: "pointer" }}
               onClick={redirectToSignUp}
