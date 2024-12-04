@@ -68,7 +68,7 @@ const HighScoreBoard = () => {
       <br />
       <button
         className="sign-button"
-        style={{ width: "250px" }}
+        style={{ width: "200px" }}
         onClick={goNewGame}
       >
         New Game
