@@ -80,7 +80,7 @@ const LoginPage = () => {
       setLoginPass(true);
     } catch (error) {
       console.log("Error logging in:", error.message);
-      alert("An error occurred. Please try again.");
+      alert("An error occurred. Please try again..!!.");
     }
   };
 
