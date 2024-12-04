@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "../style/API.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import firebase from "firebase/compat/app";
 import "firebase/compat/database";
-import HighScoreBoard from "../pages/HighScoreBoard";
+
 import confetti from "https://cdn.skypack.dev/canvas-confetti";
 import loss from "../sounds/loss.wav";
 import won from "../sounds/won.wav";
@@ -215,14 +215,14 @@ const API = () => {
                 <div>
                   <button
                     className="sign-button"
-                    style={{ width: "250px" }}
+                    style={{ width: "200px" }}
                     onClick={restartGame}
                   >
                     New Game
                   </button>
                   <button
                     className="sign-button"
-                    style={{ width: "250px" }}
+                    style={{ width: "200px" }}
                     onClick={goToScoreboard}
                   >
                     Scoreboard
